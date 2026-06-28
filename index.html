@@ -77,11 +77,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="– Titas Chanda">
 <meta property="og:description" content="Personal academic website of Titas Chanda, Assistant Professor in the Department of Physics at IIT Madras, working on quantum many-body physics, tensor network methods, quantum simulations, and quantum information theory.">
-<meta property="og:image" content="images/tc.jpg">
+<meta property="og:image" content="https://titaschanda.github.io/images/tc.jpg">
 <meta property="og:site_name" content="Titas Chanda">
 <meta name="twitter:title" content="– Titas Chanda">
 <meta name="twitter:description" content="Personal academic website of Titas Chanda, Assistant Professor in the Department of Physics at IIT Madras, working on quantum many-body physics, tensor network methods, quantum simulations, and quantum information theory.">
-<meta name="twitter:image" content="images/tc.jpg">
+<meta name="twitter:image" content="https://titaschanda.github.io/images/tc.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -284,7 +284,7 @@ IIT Madras</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/titaschanda\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
