@@ -1,0 +1,59 @@
+/* css styles */
+
+.rounded {
+    border-radius: 50%;
+    border: 3px solid #888;
+}
+
+.column:first-child {
+    text-align: left;
+}
+
+.column:first-child h3 {
+    margin-top: 1rem;
+}
+
+.column:first-child hr {
+    margin: 1rem 0;
+}
+
+.column:first-child {
+    padding-right: 2rem;
+}
+
+
+.member-card {
+  display: inline-block;
+  width: 240px;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: white;
+  text-align: center;
+  vertical-align: top;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+/*
+.member-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+*/
+
+.member-card img {
+  width: 100%;
+  aspect-ratio: 4 / 4;
+  object-fit: cover;
+  display: block;
+}
+
+.member-card h3 {
+  margin: 1rem 0 0.3rem;
+}
+
+.member-card p {
+  margin: 0.3rem 1rem 1rem;
+}
