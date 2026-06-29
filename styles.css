@@ -1,28 +1,11 @@
 /* css styles */
 
-/* ≥1600px */
-html { zoom: 100%; }
-
-/* 1200–1600px */
-@media (max-width: 1599.98px) {
-  html { zoom: 95%; }
-}
-
-/* 992–1199px */
-@media (max-width: 1199.98px) {
-  html { zoom: 90%; }
-}
-
-/* 768–991px */
-@media (max-width: 991.98px) {
-  html { zoom: 85%; }
-}
-
-/* <768px */
-@media (max-width: 599.98px) {
-  html { zoom: 55%; }
-}
-
+@media (max-width: 1400px) { html { zoom: 96%; } }
+@media (max-width: 1200px) { html { zoom: 92%; } }
+@media (max-width: 1000px) { html { zoom: 88%; } }
+@media (max-width: 800px)  { html { zoom: 84%; } }
+@media (max-width: 600px)  { html { zoom: 80%; } }
+@media (max-width: 400px)  { html { zoom: 55%; } }
 
 
 .rounded {
