@@ -1,21 +1,26 @@
 /* css styles */
 
-/* ≥1200px */
+/* ≥1600px */
 html { zoom: 100%; }
+
+/* 1200–1600px */
+@media (max-width: 1599.98px) {
+  html { zoom: 90%; }
+}
 
 /* 992–1199px */
 @media (max-width: 1199.98px) {
-  html { zoom: 90%; }
+  html { zoom: 80%; }
 }
 
 /* 768–991px */
 @media (max-width: 991.98px) {
-  html { zoom: 75%; }
+  html { zoom: 70%; }
 }
 
 /* <768px */
 @media (max-width: 767.98px) {
-  html { zoom: 60%; }
+  html { zoom: 55%; }
 }
 
 
