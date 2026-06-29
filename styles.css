@@ -1,5 +1,11 @@
 /* css styles */
 
+@media (max-width: 868px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 .rounded {
     border-radius: 50%;
     border: 3px solid #888;
