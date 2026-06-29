@@ -5,21 +5,21 @@ html { zoom: 100%; }
 
 /* 1200–1600px */
 @media (max-width: 1599.98px) {
-  html { zoom: 90%; }
+  html { zoom: 95%; }
 }
 
 /* 992–1199px */
 @media (max-width: 1199.98px) {
-  html { zoom: 80%; }
+  html { zoom: 90%; }
 }
 
 /* 768–991px */
 @media (max-width: 991.98px) {
-  html { zoom: 70%; }
+  html { zoom: 85%; }
 }
 
 /* <768px */
-@media (max-width: 767.98px) {
+@media (max-width: 599.98px) {
   html { zoom: 55%; }
 }
 
