@@ -46,21 +46,7 @@
     "href": "codes.html",
     "title": "Numerical Libraries",
     "section": "",
-    "text": "I actively develop open-source scientific software for quantum many-body physics and quantum information. The libraries below are freely available and are used in my research."
-  },
-  {
-    "objectID": "codes.html#qiclib",
-    "href": "codes.html#qiclib",
-    "title": "Numerical Libraries",
-    "section": "QIClib",
-    "text": "QIClib"
-  },
-  {
-    "objectID": "codes.html#tennetlib.jl",
-    "href": "codes.html#tennetlib.jl",
-    "title": "Numerical Libraries",
-    "section": "TenNetlib.jl",
-    "text": "TenNetlib.jl"
+    "text": "I actively develop open-source scientific software for quantum many-body physics and quantum information. The libraries below are freely available and are used in my research.\n\nQIClib : A C++ library for general purpose quantum computing and quantum information.\nTenNetLib.jl : A Julia library for tensor network algorithms, designed for large-scale simulations of strongly correlated quantum many-body systems.\n\n\n\n\n\n\n\nQIClib\n\n\n\n\n\n\n\nTenNetlib.jl"
   },
   {
     "objectID": "contact.html",
@@ -96,6 +82,20 @@
     "title": "Research",
     "section": "Collaborations",
     "text": "Collaborations\nOur research benefits from long-standing collaborations with researchers across the globe. Some of the major institutional collaborations include\n\nAbdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy\nInternational School for Advanced Studies (SISSA), Trieste, Italy\nJagiellonian University, Kraków, Poland\nHarish-Chandra Research Institute (HRI), Prayagraj, India\nInstitute of Photonic Sciences (ICFO), Barcelona, Spain\nInstituto de Física Fundamental (IFF-CSIC), Madrid, Spain\nAndronikashvili Institute of Physics, Tbilisi, Georgia\nSaarland University, Saarbrücken, Germany\nIndian Institute of Technology Madras (IIT Madras), India"
+  },
+  {
+    "objectID": "research.html#selected-publications",
+    "href": "research.html#selected-publications",
+    "title": "Research",
+    "section": "Selected Publications",
+    "text": "Selected Publications\n\nTwo-Dimensional \\(J_1\\)-\\(J_2\\) Clock Model: Enhanced Symmetries, Emergent Orders, and Landau-Incompatible Transitions, Pulloor Kuttanikkad Vishnu, Abhishodh Prakash, Rajesh Narayanan, and Titas Chanda, Physical Review Letters 135, 256703 (2025).\nChiral graviton modes on the lattice, Hernan B Xavier, Zeno Bacciconi, Titas Chanda, Dam Thanh Son, and Marcello Dalmonte, Physical Review Letters 135, 196501 (2025).\nTheory of fractional quantum Hall liquids coupled to quantum light and emergent graviton-polaritons, Zeno Bacciconi, Hernan B Xavier, Iacopo Carusotto, Titas Chanda, and Marcello Dalmonte, Physical Review X 15, 021027 (2025).\nMany-Body Magic Via Pauli-Markov Chains – From Criticality to Gauge Theories, Poetri Sonya Tarabunga, Emanuele Tirrito, Titas Chanda, and Marcello Dalmonte, PRX Quantum 4, 040317 (2023).\nPhase diagram of Rydberg-dressed atoms on two-leg square ladders: Coupling supersymmetric conformal field theories on the lattice, Mikheil Tsitsishvili, Titas Chanda, Matteo Votto, Pierre Fromholz, Marcello Dalmonte, and Alexander Nersesyan, Physical Review B 105, 155159 (2022).\nPhase Diagram of 1+1D Abelian-Higgs Model and Its Critical Point, Titas Chanda, Maciej Lewenstein, Jakub Zakrzewski, and Luca Tagliacozzo, Physical Review Letters 128, 090601 (2022).\nConfinement and lack of thermalization after quenches in the bosonic Schwinger model, Titas Chanda, Jakub Zakrzewski, Maciej Lewenstein, and Luca Tagliacozzo, Physical Review Letters 124, 180602 (2020)."
+  },
+  {
+    "objectID": "research.html#arxiv-preprints",
+    "href": "research.html#arxiv-preprints",
+    "title": "Research",
+    "section": "arXiv Preprints",
+    "text": "arXiv Preprints"
   },
   {
     "objectID": "group.html",

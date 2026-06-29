@@ -74,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -195,6 +224,22 @@ ul.task-list li input[type="checkbox"] {
 <li>Indian Institute of Technology Madras (IIT Madras), India</li>
 </ul>
 <hr>
+</section>
+<section id="selected-publications" class="level2">
+<h2 class="anchored" data-anchor-id="selected-publications">Selected Publications</h2>
+<ul>
+<li><p><em>Two-Dimensional <span class="math inline">\(J_1\)</span>-<span class="math inline">\(J_2\)</span> Clock Model: Enhanced Symmetries, Emergent Orders, and Landau-Incompatible Transitions</em>, Pulloor Kuttanikkad Vishnu, Abhishodh Prakash, Rajesh Narayanan, and <strong>Titas Chanda</strong>, <a href="https://doi.org/10.1103/6jpk-yj56">Physical Review Letters <strong>135</strong>, 256703 (2025)</a>.</p></li>
+<li><p><em>Chiral graviton modes on the lattice</em>, Hernan B Xavier, Zeno Bacciconi, <strong>Titas Chanda</strong>, Dam Thanh Son, and Marcello Dalmonte, <a href="https://doi.org/10.1103/1636-kl65">Physical Review Letters <strong>135</strong>, 196501 (2025)</a>.</p></li>
+<li><p><em>Theory of fractional quantum Hall liquids coupled to quantum light and emergent graviton-polaritons</em>, Zeno Bacciconi, Hernan B Xavier, Iacopo Carusotto, <strong>Titas Chanda</strong>, and Marcello Dalmonte, <a href="https://doi.org/10.1103/PhysRevX.15.021027">Physical Review X <strong>15</strong>, 021027 (2025)</a>.</p></li>
+<li><p><em>Many-Body Magic Via Pauli-Markov Chains – From Criticality to Gauge Theories</em>, Poetri Sonya Tarabunga, Emanuele Tirrito, <strong>Titas Chanda</strong>, and Marcello Dalmonte, <a href="https://doi.org/10.1103/PRXQuantum.4.040317">PRX Quantum <strong>4</strong>, 040317 (2023)</a>.</p></li>
+<li><p><em>Phase diagram of Rydberg-dressed atoms on two-leg square ladders: Coupling supersymmetric conformal field theories on the lattice</em>, Mikheil Tsitsishvili, <strong>Titas Chanda</strong>, Matteo Votto, Pierre Fromholz, Marcello Dalmonte, and Alexander Nersesyan, <a href="https://doi.org/10.1103/PhysRevB.105.155159">Physical Review B <strong>105</strong>, 155159 (2022)</a>.</p></li>
+<li><p><em>Phase Diagram of 1+1D Abelian-Higgs Model and Its Critical Point</em>, <strong>Titas Chanda</strong>, Maciej Lewenstein, Jakub Zakrzewski, and Luca Tagliacozzo, <a href="https://doi.org/10.1103/PhysRevLett.128.090601">Physical Review Letters <strong>128</strong>, 090601 (2022)</a>.</p></li>
+<li><p><em>Confinement and lack of thermalization after quenches in the bosonic Schwinger model</em>, <strong>Titas Chanda</strong>, Jakub Zakrzewski, Maciej Lewenstein, and Luca Tagliacozzo, <a href="https://doi.org/10.1103/PhysRevLett.124.180602">Physical Review Letters <strong>124</strong>, 180602 (2020)</a>.</p></li>
+</ul>
+<hr>
+</section>
+<section id="arxiv-preprints" class="level2">
+<h2 class="anchored" data-anchor-id="arxiv-preprints">arXiv Preprints</h2>
 <iframe src="https://arxiv.org/a/chanda_t_1.html" width="100%" height="800" style="border:none;">
 </iframe>
 <hr>
