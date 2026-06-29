@@ -1,10 +1,24 @@
 /* css styles */
 
-@media (max-width: 868px) {
-  html {
-    font-size: 60%;
-  }
+/* ≥1200px */
+html { zoom: 100%; }
+
+/* 992–1199px */
+@media (max-width: 1199.98px) {
+  html { zoom: 90%; }
 }
+
+/* 768–991px */
+@media (max-width: 991.98px) {
+  html { zoom: 75%; }
+}
+
+/* <768px */
+@media (max-width: 767.98px) {
+  html { zoom: 60%; }
+}
+
+
 
 .rounded {
     border-radius: 50%;
@@ -26,6 +40,8 @@
 .column:first-child {
     padding-right: 2rem;
 }
+
+
 
 
 .member-card {
