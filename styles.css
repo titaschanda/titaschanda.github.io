@@ -67,3 +67,8 @@
 .member-card p {
   margin: 0.3rem 1rem 1rem;
 }
+
+
+:root {
+    --bs-body-font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
