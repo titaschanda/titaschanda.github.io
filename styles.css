@@ -7,7 +7,6 @@
 @media (max-width: 600px)  { html { zoom: 80%; } }
 @media (max-width: 400px)  { html { zoom: 55%; } }
 
-
 .rounded {
     border-radius: 10%;
     border: 1px solid #888;
