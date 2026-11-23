@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://titaschanda.github.io/about.html</loc>
-    <lastmod>2026-07-05T10:58:19.533Z</lastmod>
+    <loc>https://titaschanda.github.io/contact.html</loc>
+    <lastmod>2026-11-23T16:17:07.968Z</lastmod>
   </url>
   <url>
     <loc>https://titaschanda.github.io/codes.html</loc>
-    <lastmod>2026-07-01T12:24:54.011Z</lastmod>
-  </url>
-  <url>
-    <loc>https://titaschanda.github.io/contact.html</loc>
-    <lastmod>2026-07-01T12:24:58.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://titaschanda.github.io/teaching.html</loc>
-    <lastmod>2026-07-01T12:25:30.200Z</lastmod>
-  </url>
-  <url>
-    <loc>https://titaschanda.github.io/research.html</loc>
-    <lastmod>2026-07-01T12:25:21.917Z</lastmod>
+    <lastmod>2026-11-23T16:16:57.464Z</lastmod>
   </url>
   <url>
     <loc>https://titaschanda.github.io/group.html</loc>
-    <lastmod>2026-08-01T10:03:36.739Z</lastmod>
+    <lastmod>2026-11-23T16:33:47.374Z</lastmod>
+  </url>
+  <url>
+    <loc>https://titaschanda.github.io/research.html</loc>
+    <lastmod>2026-11-23T15:45:38.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://titaschanda.github.io/teaching.html</loc>
+    <lastmod>2026-11-23T15:59:19.725Z</lastmod>
   </url>
   <url>
     <loc>https://titaschanda.github.io/index.html</loc>
-    <lastmod>2026-09-03T04:09:29.898Z</lastmod>
+    <lastmod>2026-11-23T16:46:51.717Z</lastmod>
   </url>
 </urlset>

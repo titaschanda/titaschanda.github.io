@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Open-source scientific software developed by Titas Chanda: QIClib, a C++ library for quantum computing and quantum information, and TenNetLib.jl, a Julia library for tensor network algorithms.">
 
-<title>Numerical Libraries – Titas Chanda</title>
+<title>Codes | Titas Chanda</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e3217bf6a214fde96f02e38048ab5dee.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,10 +72,26 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta name="color-scheme" content="only light">
 <meta name="robots" content="noindex, nofollow">
 
 
-<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Codes | Titas Chanda">
+<meta property="og:description" content="Open-source scientific software developed by Titas Chanda: QIClib, a C++ library for quantum computing and quantum information, and TenNetLib.jl, a Julia library for tensor network algorithms.">
+<meta property="og:image" content="https://titaschanda.github.io/images/social-preview.png">
+<meta property="og:site_name" content="Titas Chanda">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:alt" content="Titas Chanda, Assistant Professor of Physics, IIT Madras">
+<meta name="twitter:title" content="Codes | Titas Chanda">
+<meta name="twitter:description" content="Open-source scientific software developed by Titas Chanda: QIClib, a C++ library for quantum computing and quantum information, and TenNetLib.jl, a Julia library for tensor network algorithms.">
+<meta name="twitter:image" content="https://titaschanda.github.io/images/social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="630">
+<meta name="twitter:image-width" content="1200">
+<meta name="twitter:image:alt" content="Titas Chanda, Assistant Professor of Physics, IIT Madras">
+<link rel="canonical" href="https://titaschanda.github.io/codes.html">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -84,6 +101,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/iitm-logo.png" alt="IIT Madras emblem" class="navbar-logo light-content">
+    <img src="./images/iitm-logo.png" alt="IIT Madras emblem" class="navbar-logo dark-content">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Titas Chanda</span>
     </a>
@@ -99,20 +120,16 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About Me</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./group.html"> 
 <span class="menu-text">Group</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./codes.html" aria-current="page"> 
@@ -140,8 +157,14 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Numerical Libraries</h1>
+<p class="subtitle lead">Open-source software for quantum many-body physics and quantum information</p>
 </div>
 
+<div>
+  <div class="description">
+    Open-source scientific software developed by Titas Chanda: QIClib, a C++ library for quantum computing and quantum information, and TenNetLib.jl, a Julia library for tensor network algorithms.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta column-page">
@@ -156,43 +179,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/tennetlib.png" style="float:right; width:20%; margin:0 0 0.5rem 1rem;
-     border-radius:1px;"></p>
-<p>I actively develop open-source scientific software for quantum many-body physics and quantum information. The libraries below are freely available and are used in my research.</p>
-<ol type="1">
-<li><p><a href="https://titaschanda.github.io/QIClib/"><strong>QIClib</strong></a> : A <strong>C++</strong> library for general purpose quantum computing and quantum information.</p></li>
-<li><p><a href="https://titaschanda.github.io/TenNetLib.jl/stable/"><strong>TenNetLib.jl</strong></a> : A <strong>Julia</strong> library for tensor network algorithms, designed for large-scale simulations of strongly correlated quantum many-body systems.</p></li>
-</ol>
-<div style="clear: both;">
+<div class="lead">
+<p>I actively develop open-source scientific software for quantum many-body physics and quantum information. The libraries below are freely available on GitHub and are used in my research. Bug reports, suggestions and contributions are always welcome.</p>
+</div>
+<!--
+To add a library, copy one <div class="qcard lib-row"> ... </div> block below
+and edit the logo, name, language, description, highlights, install line and links.
+-->
+<div class="libs">
+
+  <div class="qcard lib-row">
+    <div class="lib-logo"><img src="images/codes/tennetlib-logo.png" alt="TenNetLib.jl logo"></div>
+    <div class="lib-body">
+      <div class="lib-head">
+        <div class="lib-name">TenNetLib.jl</div>
+        <span class="tag tag-sm">Julia</span>
+      </div>
+      <p>A <strong>Julia</strong> library for tensor network algorithms, designed for large-scale simulations of strongly correlated quantum many-body systems. It is built on top of ITensors.jl and ITensorMPS.jl.</p>
+      <ul class="lib-feat">
+        <li>Matrix product states: DMRG and TDVP, including subspace expansion</li>
+        <li>Tree tensor networks: ground states and low-lying excited states</li>
+        <li>Several levels of abstraction, from ready-made solvers to fine control</li>
+      </ul>
+      <div class="lib-foot">
+        <code class="lib-install">pkg&gt; add TenNetLib</code>
+        <div class="lib-links">
+          <a class="btn-q btn-q-primary btn-sm" href="https://titaschanda.github.io/TenNetLib.jl/stable/"><i class="bi bi-book"></i>Documentation</a>
+          <a class="btn-q btn-q-ghost btn-sm" href="https://github.com/titaschanda/TenNetLib.jl"><i class="bi bi-github"></i>GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="qcard lib-row">
+    <div class="lib-logo"><img src="images/codes/qiclib-logo.png" alt="QIClib logo"></div>
+    <div class="lib-body">
+      <div class="lib-head">
+        <div class="lib-name">QIClib</div>
+        <span class="tag tag-sm">C++</span>
+      </div>
+      <p>A <strong>C++</strong> library for general-purpose quantum computing and quantum information. It is a header-only C++11 template library that uses Armadillo for efficient linear algebra.</p>
+      <ul class="lib-feat">
+        <li>Header-only: nothing to compile, just include the header</li>
+        <li>Works on Linux, Windows and macOS</li>
+        <li>Optional NLopt support for nonlinear optimization</li>
+      </ul>
+      <div class="lib-foot">
+        <code class="lib-install">git clone https://github.com/titaschanda/QIClib</code>
+        <div class="lib-links">
+          <a class="btn-q btn-q-primary btn-sm" href="https://titaschanda.github.io/QIClib/"><i class="bi bi-book"></i>Documentation</a>
+          <a class="btn-q btn-q-ghost btn-sm" href="https://github.com/titaschanda/QIClib"><i class="bi bi-github"></i>GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
-<hr>
-<center>
-<section id="qiclib" class="level3">
-<h3 class="anchored" data-anchor-id="qiclib">QIClib</h3>
-<iframe src="https://titaschanda.github.io/QIClib/" width="100%" height="800" style="
-        border: 1px solid #d0d0d0;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    ">
-</iframe>
-</section></center>
-<hr>
-<center>
-
-<section id="tennetlib.jl" class="level3">
-<h3 class="anchored" data-anchor-id="tennetlib.jl">TenNetlib.jl</h3>
-<iframe src="https://titaschanda.github.io/TenNetLib.jl/stable/" width="100%" height="800" style="
-        border: 1px solid #d0d0d0;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    ">
-</iframe>
-</section></center>
-<hr>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset doc-tabs">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">TenNetLib.jl</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">QIClib</a></li></ul>
+<div class="tab-content doc-tabs">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="embed">
+  <iframe src="https://titaschanda.github.io/TenNetLib.jl/stable/" height="760" title="TenNetLib.jl documentation" loading="lazy"></iframe>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="embed">
+  <iframe src="https://titaschanda.github.io/QIClib/" height="760" title="QIClib documentation" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+</div>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -599,18 +661,19 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© 2026 Titas Chanda</p>
+</div>   
     <div class="nav-footer-center">
-<p>© 2026 Titas Chanda • Department of Physics • IIT Madras</p>
+<p>Department of Physics, IIT Madras</p>
 </div>
     <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<p><a href="https://scholar.google.com/citations?user=bLe2znoAAAAJ&amp;hl=en">Google Scholar</a> &nbsp;·&nbsp; <a href="https://arxiv.org/a/chanda_t_1.html">arXiv</a> &nbsp;·&nbsp; <a href="https://github.com/titaschanda">GitHub</a></p>
+</div>
   </div>
 </footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
