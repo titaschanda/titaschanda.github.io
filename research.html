@@ -183,25 +183,25 @@ ul.task-list li input[type="checkbox"] {
 <figure class="figcard plain research-fig figure">
   <img src="images/connecting.png" alt="Diagram connecting quantum information, quantum simulations, tensor networks, quantum computation, field theory, lattice gauge theory and quantum many-body physics" loading="lazy" class="figure-img">
 </figure>
-<p>What happens when many quantum particles interact strongly? Electrons in a solid, atoms held in a crystal of laser light, or photons trapped in a cavity can then act collectively, in ways that no single particle could. They form new phases of matter, switch between them at sharp transitions, and build up intricate patterns of quantum entanglement. Understanding this collective quantum behavior is the goal of our research.</p>
-<p>We approach it from several directions. We study how quantum matter organizes itself at low temperatures, with a particular interest in <strong>phase transitions that defy conventional wisdom</strong> and in <strong>topological phases</strong>. We explore <strong>lattice gauge theories</strong>, the language in which particle physicists describe the fundamental forces, in versions that can be built in the laboratory. We ask how matter changes when it interacts strongly with <strong>light trapped between two mirrors</strong>. We also follow quantum systems <strong>out of equilibrium</strong>, asking whether, how and how fast they forget where they started.</p>
-<p>A common thread is <strong>quantum simulation</strong>. Ultracold atoms, Rydberg atoms, trapped ions and cavity experiments now let physicists assemble many-body systems almost to order, and watch them particle by particle. Our aim is to find the physics these platforms can reveal, and to provide the theory needed to recognize it. For this, we combine field-theoretical reasoning with large-scale <strong>tensor network</strong> simulations, and we borrow ideas from <strong>quantum information</strong> to characterize the states we find.</p>
+<p>When many quantum particles interact strongly, they no longer behave as independent individuals. Electrons in a solid, ultracold atoms held in a crystal of laser light, or atoms coupled to light in an optical cavity can act collectively, giving rise to new phases of matter, unusual phase transitions and intricate patterns of quantum entanglement. Understanding such collective quantum behavior is the central goal of our research.</p>
+<p>We pursue this goal from several directions. We study how quantum matter organizes itself at low temperatures, with a particular interest in <strong>unconventional phase transitions</strong> and <strong>topological phases</strong>. We explore <strong>lattice gauge theories</strong>, the framework that particle physicists use to describe the fundamental forces, in forms that can be realized in the laboratory. We ask how matter changes when it interacts strongly with <strong>light confined in an optical cavity</strong>. We also study quantum systems <strong>out of equilibrium</strong>, asking whether, how and how fast they thermalize and lose memory of their initial state.</p>
+<p>A common thread is <strong>quantum simulation</strong>. Experiments with ultracold atoms, Rydberg atoms, trapped ions and optical cavities now make it possible to engineer many-body systems almost at will and to observe them particle by particle. Our aim is to identify the physics these platforms can reveal and to provide the theory needed to understand it. To this end, we combine field-theoretical methods with large-scale <strong>tensor network</strong> simulations, and we use concepts from <strong>quantum information</strong> to characterize the resulting states.</p>
 </div>
 <div class="qgrid qgrid-3 approach">
   <div class="qcard approach-card">
     <div class="ap-label">Numerics</div>
-    <h3 class="anchored">Tensor networks</h3>
-    <p>The quantum state of many particles is far too large to store directly. Tensor networks capture its essential structure in compact form, giving us ground states, excitations and time evolution of large systems.</p>
+    <h3 class="anchored">Tensor Networks</h3>
+    <p>The quantum state of many particles is far too large to store directly. Tensor networks capture its essential structure in a compact form, giving access to ground states, excitations and the time evolution of large systems.</p>
   </div>
   <div class="qcard approach-card">
     <div class="ap-label">Analytics</div>
-    <h3 class="anchored">Quantum field theory</h3>
-    <p>At long distances, the details of a lattice model wash out and a simpler field theory takes over. This view explains why certain phases and transitions occur, and tells the simulations where to look.</p>
+    <h3 class="anchored">Quantum Field Theory</h3>
+    <p>At long distances, the microscopic details of a lattice model wash out and a simpler field theory takes over. This perspective explains why certain phases and transitions occur and tells us where to look in the simulations.</p>
   </div>
   <div class="qcard approach-card">
     <div class="ap-label">Concepts</div>
-    <h3 class="anchored">Quantum information</h3>
-    <p>Entanglement and related measures reveal what conventional observables can miss. They help us detect phases, pinpoint transitions and quantify how quantum a state really is.</p>
+    <h3 class="anchored">Quantum Information</h3>
+    <p>Entanglement and related measures reveal structure that conventional observables can miss. They help us detect phases, pinpoint transitions and quantify how quantum a state really is.</p>
   </div>
 </div>
 <section id="current-research-topics" class="level2">
@@ -209,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="qgrid qgrid-3 themes">
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-diagram-3" aria-hidden="true"></i><h3 class="anchored">Quantum Simulations with Synthetic Quantum Systems</h3></div>
-    <p>Atoms in optical lattices, Rydberg atoms and dipolar gases can be engineered to interact in ways rarely found in natural materials, for instance over long distances or through hopping that depends on the neighbors. We map out what such systems do for realistic experimental parameters, so that experiments know what to look for and how to recognize it.</p>
+    <p>Atoms in optical lattices, Rydberg atoms and dipolar gases can be engineered to interact in ways rarely found in natural materials, for instance over long distances or through tunneling that depends on the occupation of neighboring sites. We map out the behavior of such systems for realistic experimental parameters, so that experimentalists know what to look for and how to recognize it.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevB.105.155159" title="Phase diagram of Rydberg-dressed atoms on two-leg square ladders: Coupling supersymmetric conformal field theories on the lattice">Phys. Rev. B 105, 155159 (2022)</a></li>
@@ -219,7 +219,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-grid-3x3-gap" aria-hidden="true"></i><h3 class="anchored">Tensor Network Algorithms</h3></div>
-    <p>Tensor networks are the workhorse of our numerics. We use them for ground states, excitations and long-time dynamics, extend them to new territory such as gauge theories and light-matter systems, and test competing algorithms against each other to learn where each can be trusted. Our open-source library <a href="codes.html">TenNetLib.jl</a> grew out of this effort.</p>
+    <p>Tensor networks are the workhorse of our numerics. We use them for ground states, excitations and long-time dynamics, extend them to new settings such as gauge theories and light-matter systems, and test competing algorithms against each other to learn where each can be trusted. Our open-source library <a href="codes.html">TenNetLib.jl</a> grew out of this effort.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevB.101.035148" title="Time dynamics with matrix product states: Many-body localization transition of large systems revisited">Phys. Rev. B 101, 035148 (2020)</a></li>
@@ -229,7 +229,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-activity" aria-hidden="true"></i><h3 class="anchored">Critical Phenomena</h3></div>
-    <p>At a phase transition, a system decides how to organize itself, and its behavior becomes universal. We are drawn to transitions that break the textbook rules: symmetries absent in the original model that emerge at long distances, or two incompatible kinds of order that meet at a single continuous transition. We study them in quantum chains, ladders and two-dimensional models.</p>
+    <p>At a continuous phase transition, the collective behavior of a system changes qualitatively, and its properties become universal, independent of microscopic details. We are particularly interested in transitions beyond the textbook picture, for example where symmetries absent in the microscopic model emerge at long distances, or where two incompatible kinds of order meet at a single continuous transition. We study them in one-dimensional chains, ladders and two-dimensional models.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/6jpk-yj56" title="Two-dimensional J1-J2 clock model: Enhanced symmetries, emergent orders, and Landau-incompatible transitions">Phys. Rev. Lett. 135, 256703 (2025)</a></li>
@@ -239,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-bounding-box-circles" aria-hidden="true"></i><h3 class="anchored">Lattice Gauge Theories</h3></div>
-    <p>Gauge theories describe the fundamental forces of nature, from electromagnetism to the strong force that binds quarks. On a lattice, they become accessible to computers and to quantum simulators. We study how charges get confined, how gauge theories evolve after a sudden kick, and what changes when the matter is bosonic, as is natural with cold atoms.</p>
+    <p>Gauge theories describe the fundamental forces of nature, from electromagnetism to the strong force that binds quarks. Formulated on a lattice, they become accessible to computers and to quantum simulators. We study how charges become confined, how gauge theories evolve after a sudden quench, and what changes when the matter is bosonic, as is natural in cold-atom experiments.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevLett.124.180602" title="Confinement and lack of thermalization after quenches in the bosonic Schwinger model">Phys. Rev. Lett. 124, 180602 (2020)</a></li>
@@ -249,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-infinity" aria-hidden="true"></i><h3 class="anchored">Topological Order</h3></div>
-    <p>Some phases of matter cannot be told apart by any local measurement. Their identity is encoded globally and shows up in robust edge states, or in excitations that carry a fraction of an electron’s charge. We look for such phases in models that synthetic quantum systems can realize, from fractional quantum Hall states to quantum spin liquids.</p>
+    <p>Some phases of matter cannot be distinguished by any local order parameter. Their identity is encoded globally and shows up in robust edge states, or in excitations that carry a fraction of an electron’s charge. We look for such phases in models that synthetic quantum systems can realize, from fractional quantum Hall states to quantum spin liquids.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/1636-kl65" title="Chiral graviton modes on the lattice">Phys. Rev. Lett. 135, 196501 (2025)</a></li>
@@ -259,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-lightbulb" aria-hidden="true"></i><h3 class="anchored">Cavity Control of Many-Body Systems</h3></div>
-    <p>Between two mirrors, light and matter can interact so strongly that they lose their separate identities. We study how this reshapes the phases of matter, which hybrid excitations of light and matter emerge, and how the light itself can tell us what is happening inside the material.</p>
+    <p>Between two mirrors, light and matter can interact so strongly that they lose their separate identities. We study how this coupling reshapes the phases of matter, which hybrid excitations of light and matter emerge, and how the light itself can reveal what is happening inside the material.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevX.15.021027" title="Theory of fractional quantum Hall liquids coupled to quantum light and emergent graviton-polaritons">Phys. Rev. X 15, 021027 (2025)</a></li>
@@ -269,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-hourglass-split" aria-hidden="true"></i><h3 class="anchored">Out-of-Equilibrium Phenomena</h3></div>
-    <p>Experiments with synthetic quantum systems naturally watch things move. We study how many-body systems respond when their parameters are changed suddenly or slowly, how phase transitions leave fingerprints in the dynamics, and how such dynamics might be put to work in quantum devices, for example to charge a quantum battery faster.</p>
+    <p>Synthetic quantum systems are ideal for observing quantum dynamics in real time. We study how many-body systems respond when their parameters are changed suddenly or slowly, how phase transitions leave their fingerprints in the dynamics, and how such dynamics might be put to work in quantum devices, for example to charge a quantum battery faster.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevB.103.L220302" title="Non-adiabatic dynamics across a first order quantum phase transition: Quantized bubble nucleation">Phys. Rev. B 103, L220302 (2021)</a></li>
@@ -279,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-shuffle" aria-hidden="true"></i><h3 class="anchored">Many-Body Localization and Disordered Systems</h3></div>
-    <p>Isolated quantum systems usually thermalize and forget their initial state, but disorder or strong fields can stop this from happening. Using simulations of large systems, we study when such localization sets in, how it differs between random and perfectly regular potentials, and how localized and thermal regions can live side by side.</p>
+    <p>Isolated quantum systems usually thermalize and forget their initial state, but disorder or strong external fields can prevent this. Using simulations of large systems, we study when such localization sets in, how it differs between random disorder and disorder-free potentials such as a tilt or a harmonic trap, and how localized and thermal regions can coexist.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://doi.org/10.1103/PhysRevResearch.2.032045" title="Many-body localization transition in large quantum spin chains: The mobility edge">Phys. Rev. Research 2, 032045(R) (2020)</a></li>
@@ -289,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="qcard theme">
     <div class="theme-top"><i class="bi bi-cpu" aria-hidden="true"></i><h3 class="anchored">Quantum Information Theory</h3></div>
-    <p>Quantum information offers both questions and tools. We study entanglement and quantum magic, the ingredient a quantum computer needs to outperform classical ones, in many-body systems, and propose ways to measure them in experiments. Earlier work explored how quantum correlations survive noise and how they can be shared among many parties.</p>
+    <p>Quantum information offers both questions and tools. In many-body systems, we study entanglement and quantum magic, a resource that quantum computers need in order to outperform classical ones, and we propose ways to measure them in experiments. Earlier work explored how quantum correlations survive noise and how they can be shared among many parties.</p>
     <div class="kp-label">Key papers</div>
     <ul class="kp">
       <li><a href="https://arxiv.org/abs/2304.01175" title="Quantifying non-stabilizerness through entanglement spectrum flatness">Phys. Rev. A 109, L040401 (2024)</a></li>
@@ -364,8 +364,8 @@ ul.task-list li input[type="checkbox"] {
   <li>
     <div class="tt">"Emergence in a classical frustrated system: Symmetry, order, and deconfined classical criticality"</div>
     <div class="tv">
+      <span>at the Susegad Symposium on Quantum Dynamics and Thermalization (SSQDT), BITS Pilani, Goa Campus, India – Feb. 2026</span>
       <span>at the Advanced School and Conference on Quantum Matter, the Abdus Salam International Centre for Theoretical Physics (ICTP), Trieste, Italy – Dec. 2025</span>
-      <span>at the Susegad Symposium on Quantum Dynamics and Thermalization (SSQDT), BITS Pilani Goa Campus, India – Feb. 2026</span>
     </div>
   </li>
   <li>
@@ -410,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="tt">"Lattice gauge theories in the age of quantum technologies: Bosonic Schwinger model out of equilibrium"</div>
     <div class="tv">
       <span>at the Particle Physics Phenomenology and Experiments Seminar, Jagiellonian University, Kraków, Poland – Jul. 2021</span>
-      <span>at the Indian Institute of Technology Bombay (IITB), Mumbai, India – Jul. 2020</span>
+      <span>at IIT Bombay, Mumbai, India – Jul. 2020</span>
     </div>
   </li>
   <li>
